@@ -108,13 +108,25 @@ def apply_complex_inspired_quantization(model: nn.Module):
 def apply_bitnet_quantization(model: nn.Module):
     """
     对一个标准的实数模型应用 BitNet 1-bit 量化。
+    此版本遵循 BitNet 论文的 1-bit 方案, 包含均值中心化。
     """
-    print("正在对实数模型应用 BitNet (1-bit) 量化...")
+    print("正在对实数模型应用 BitNet (true 1-bit, affine) 量化...")
     
     @torch.no_grad()
     def quantize_linear_layer(module: nn.Linear):
-        scale = module.weight.abs().mean()
-        module.weight.data = module.weight.data.sign() * scale
+        # 1. 计算缩放因子 β (beta), 即 L1 范数
+        scale = module.weight.data.abs().mean()
+
+        # 2. 计算均值 α (alpha) 并进行中心化
+        alpha = module.weight.data.mean()
+        centered_weights = module.weight.data - alpha
+
+        # 3. 对中心化后的权重进行二值化 (严格 1-bit)
+        # 根据 BitNet_Quant.md 定义: 正数 -> +1, 非正数 -> -1
+        binarized_weights = torch.where(centered_weights > 0, 1.0, -1.0)
+
+        # 4. 应用缩放因子, 完成权重量化和反量化
+        module.weight.data = binarized_weights.to(module.weight.data.dtype) * scale
 
     model.apply(lambda module: quantize_linear_layer(module) if isinstance(module, nn.Linear) else None)
     print("BitNet 量化应用完成。")
