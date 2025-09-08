@@ -1,0 +1,55 @@
+# 字节码和缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 和编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 日志和数据文件
+*.log
+*.db
+*.sqlite3
+
+# 测试和覆盖率报告
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 构建和分发产物
+build/
+dist/
+*.egg-info/
+
+# 机器学习项目特定的文件
+# -----------------------------------
+
+# 实验日志 (例如 TensorBoard)
+runs/
+
+# 结果和输出
+# results/
+*.safetensors
+*.pth
+# 下载的模型文件
+# hf_models/
+
+# 生成的模型权重文件
+*_model_weights.txt

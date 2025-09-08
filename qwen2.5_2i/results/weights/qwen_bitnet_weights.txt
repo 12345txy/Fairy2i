@@ -1,0 +1,1747 @@
+正在从 '/home/Fairy-plus-minus-i/qwen2.5_2i/hf_models/bitnet_quant' 加载模型...
+模型加载成功！
+==================================================
+层名称 (Layer Name): model.embed_tokens.weight
+  - 形状 (Shape): torch.Size([151936, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000080
+  - 标准差 (Std):  0.012085
+  - 最小值 (Min):    -0.012085
+  - 最大值 (Max):    0.012085
+----------------------------------------
+层名称 (Layer Name): model.layers.0.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000023
+  - 标准差 (Std):  0.036133
+  - 最小值 (Min):    -0.036133
+  - 最大值 (Max):    0.036133
+----------------------------------------
+层名称 (Layer Name): model.layers.0.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000132
+  - 标准差 (Std):  0.042724
+  - 最小值 (Min):    -0.042725
+  - 最大值 (Max):    0.042725
+----------------------------------------
+层名称 (Layer Name): model.layers.0.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000013
+  - 标准差 (Std):  0.006927
+  - 最小值 (Min):    -0.006927
+  - 最大值 (Max):    0.006927
+----------------------------------------
+层名称 (Layer Name): model.layers.0.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000007
+  - 标准差 (Std):  0.008728
+  - 最小值 (Min):    -0.008728
+  - 最大值 (Max):    0.008728
+----------------------------------------
+层名称 (Layer Name): model.layers.0.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000016
+  - 标准差 (Std):  0.016235
+  - 最小值 (Min):    -0.016235
+  - 最大值 (Max):    0.016235
+----------------------------------------
+层名称 (Layer Name): model.layers.0.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000010
+  - 标准差 (Std):  0.013611
+  - 最小值 (Min):    -0.013611
+  - 最大值 (Max):    0.013611
+----------------------------------------
+层名称 (Layer Name): model.layers.0.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000005
+  - 标准差 (Std):  0.013245
+  - 最小值 (Min):    -0.013245
+  - 最大值 (Max):    0.013245
+----------------------------------------
+层名称 (Layer Name): model.layers.0.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.033039
+  - 标准差 (Std):  0.125657
+  - 最小值 (Min):    -0.625000
+  - 最大值 (Max):    0.960938
+----------------------------------------
+层名称 (Layer Name): model.layers.0.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.722957
+  - 标准差 (Std):  0.140165
+  - 最小值 (Min):    0.425781
+  - 最大值 (Max):    1.820312
+----------------------------------------
+层名称 (Layer Name): model.layers.1.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000019
+  - 标准差 (Std):  0.018310
+  - 最小值 (Min):    -0.018311
+  - 最大值 (Max):    0.018311
+----------------------------------------
+层名称 (Layer Name): model.layers.1.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000037
+  - 标准差 (Std):  0.028320
+  - 最小值 (Min):    -0.028320
+  - 最大值 (Max):    0.028320
+----------------------------------------
+层名称 (Layer Name): model.layers.1.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000012
+  - 标准差 (Std):  0.007233
+  - 最小值 (Min):    -0.007233
+  - 最大值 (Max):    0.007233
+----------------------------------------
+层名称 (Layer Name): model.layers.1.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000016
+  - 标准差 (Std):  0.009399
+  - 最小值 (Min):    -0.009399
+  - 最大值 (Max):    0.009399
+----------------------------------------
+层名称 (Layer Name): model.layers.1.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000028
+  - 标准差 (Std):  0.017578
+  - 最小值 (Min):    -0.017578
+  - 最大值 (Max):    0.017578
+----------------------------------------
+层名称 (Layer Name): model.layers.1.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000002
+  - 标准差 (Std):  0.012451
+  - 最小值 (Min):    -0.012451
+  - 最大值 (Max):    0.012451
+----------------------------------------
+层名称 (Layer Name): model.layers.1.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000003
+  - 标准差 (Std):  0.012329
+  - 最小值 (Min):    -0.012329
+  - 最大值 (Max):    0.012329
+----------------------------------------
+层名称 (Layer Name): model.layers.1.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.797256
+  - 标准差 (Std):  0.444821
+  - 最小值 (Min):    -0.059082
+  - 最大值 (Max):    3.843750
+----------------------------------------
+层名称 (Layer Name): model.layers.1.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.125866
+  - 标准差 (Std):  0.291846
+  - 最小值 (Min):    -0.000054
+  - 最大值 (Max):    3.203125
+----------------------------------------
+层名称 (Layer Name): model.layers.2.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000003
+  - 标准差 (Std):  0.017456
+  - 最小值 (Min):    -0.017456
+  - 最大值 (Max):    0.017456
+----------------------------------------
+层名称 (Layer Name): model.layers.2.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000037
+  - 标准差 (Std):  0.021973
+  - 最小值 (Min):    -0.021973
+  - 最大值 (Max):    0.021973
+----------------------------------------
+层名称 (Layer Name): model.layers.2.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000000
+  - 标准差 (Std):  0.010864
+  - 最小值 (Min):    -0.010864
+  - 最大值 (Max):    0.010864
+----------------------------------------
+层名称 (Layer Name): model.layers.2.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000017
+  - 标准差 (Std):  0.012024
+  - 最小值 (Min):    -0.012024
+  - 最大值 (Max):    0.012024
+----------------------------------------
+层名称 (Layer Name): model.layers.2.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000001
+  - 标准差 (Std):  0.017456
+  - 最小值 (Min):    -0.017456
+  - 最大值 (Max):    0.017456
+----------------------------------------
+层名称 (Layer Name): model.layers.2.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000002
+  - 标准差 (Std):  0.012695
+  - 最小值 (Min):    -0.012695
+  - 最大值 (Max):    0.012695
+----------------------------------------
+层名称 (Layer Name): model.layers.2.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000003
+  - 标准差 (Std):  0.012451
+  - 最小值 (Min):    -0.012451
+  - 最大值 (Max):    0.012451
+----------------------------------------
+层名称 (Layer Name): model.layers.2.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.921203
+  - 标准差 (Std):  0.415563
+  - 最小值 (Min):    -1.515625
+  - 最大值 (Max):    3.828125
+----------------------------------------
+层名称 (Layer Name): model.layers.2.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.238739
+  - 标准差 (Std):  0.299352
+  - 最小值 (Min):    -0.000034
+  - 最大值 (Max):    3.156250
+----------------------------------------
+层名称 (Layer Name): model.layers.3.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000039
+  - 标准差 (Std):  0.016968
+  - 最小值 (Min):    -0.016968
+  - 最大值 (Max):    0.016968
+----------------------------------------
+层名称 (Layer Name): model.layers.3.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000042
+  - 标准差 (Std):  0.023682
+  - 最小值 (Min):    -0.023682
+  - 最大值 (Max):    0.023682
+----------------------------------------
+层名称 (Layer Name): model.layers.3.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000032
+  - 标准差 (Std):  0.011292
+  - 最小值 (Min):    -0.011292
+  - 最大值 (Max):    0.011292
+----------------------------------------
+层名称 (Layer Name): model.layers.3.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000001
+  - 标准差 (Std):  0.012146
+  - 最小值 (Min):    -0.012146
+  - 最大值 (Max):    0.012146
+----------------------------------------
+层名称 (Layer Name): model.layers.3.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000023
+  - 标准差 (Std):  0.017944
+  - 最小值 (Min):    -0.017944
+  - 最大值 (Max):    0.017944
+----------------------------------------
+层名称 (Layer Name): model.layers.3.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000003
+  - 标准差 (Std):  0.012512
+  - 最小值 (Min):    -0.012512
+  - 最大值 (Max):    0.012512
+----------------------------------------
+层名称 (Layer Name): model.layers.3.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000001
+  - 标准差 (Std):  0.012268
+  - 最小值 (Min):    -0.012268
+  - 最大值 (Max):    0.012268
+----------------------------------------
+层名称 (Layer Name): model.layers.3.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.091552
+  - 标准差 (Std):  0.287205
+  - 最小值 (Min):    -0.992188
+  - 最大值 (Max):    3.593750
+----------------------------------------
+层名称 (Layer Name): model.layers.3.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.345123
+  - 标准差 (Std):  0.313675
+  - 最小值 (Min):    0.000134
+  - 最大值 (Max):    3.140625
+----------------------------------------
+层名称 (Layer Name): model.layers.4.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000020
+  - 标准差 (Std):  0.016479
+  - 最小值 (Min):    -0.016479
+  - 最大值 (Max):    0.016479
+----------------------------------------
+层名称 (Layer Name): model.layers.4.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000099
+  - 标准差 (Std):  0.021728
+  - 最小值 (Min):    -0.021729
+  - 最大值 (Max):    0.021729
+----------------------------------------
+层名称 (Layer Name): model.layers.4.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000027
+  - 标准差 (Std):  0.011230
+  - 最小值 (Min):    -0.011230
+  - 最大值 (Max):    0.011230
+----------------------------------------
+层名称 (Layer Name): model.layers.4.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000009
+  - 标准差 (Std):  0.011841
+  - 最小值 (Min):    -0.011841
+  - 最大值 (Max):    0.011841
+----------------------------------------
+层名称 (Layer Name): model.layers.4.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000038
+  - 标准差 (Std):  0.016724
+  - 最小值 (Min):    -0.016724
+  - 最大值 (Max):    0.016724
+----------------------------------------
+层名称 (Layer Name): model.layers.4.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000000
+  - 标准差 (Std):  0.013245
+  - 最小值 (Min):    -0.013245
+  - 最大值 (Max):    0.013245
+----------------------------------------
+层名称 (Layer Name): model.layers.4.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000003
+  - 标准差 (Std):  0.012817
+  - 最小值 (Min):    -0.012817
+  - 最大值 (Max):    0.012817
+----------------------------------------
+层名称 (Layer Name): model.layers.4.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.959834
+  - 标准差 (Std):  0.339881
+  - 最小值 (Min):    0.050049
+  - 最大值 (Max):    3.296875
+----------------------------------------
+层名称 (Layer Name): model.layers.4.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.266706
+  - 标准差 (Std):  0.343239
+  - 最小值 (Min):    0.000114
+  - 最大值 (Max):    7.093750
+----------------------------------------
+层名称 (Layer Name): model.layers.5.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000035
+  - 标准差 (Std):  0.015869
+  - 最小值 (Min):    -0.015869
+  - 最大值 (Max):    0.015869
+----------------------------------------
+层名称 (Layer Name): model.layers.5.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000013
+  - 标准差 (Std):  0.020508
+  - 最小值 (Min):    -0.020508
+  - 最大值 (Max):    0.020508
+----------------------------------------
+层名称 (Layer Name): model.layers.5.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000002
+  - 标准差 (Std):  0.012329
+  - 最小值 (Min):    -0.012329
+  - 最大值 (Max):    0.012329
+----------------------------------------
+层名称 (Layer Name): model.layers.5.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000001
+  - 标准差 (Std):  0.012085
+  - 最小值 (Min):    -0.012085
+  - 最大值 (Max):    0.012085
+----------------------------------------
+层名称 (Layer Name): model.layers.5.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000008
+  - 标准差 (Std):  0.016113
+  - 最小值 (Min):    -0.016113
+  - 最大值 (Max):    0.016113
+----------------------------------------
+层名称 (Layer Name): model.layers.5.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000008
+  - 标准差 (Std):  0.013611
+  - 最小值 (Min):    -0.013611
+  - 最大值 (Max):    0.013611
+----------------------------------------
+层名称 (Layer Name): model.layers.5.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000018
+  - 标准差 (Std):  0.013245
+  - 最小值 (Min):    -0.013245
+  - 最大值 (Max):    0.013245
+----------------------------------------
+层名称 (Layer Name): model.layers.5.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.123698
+  - 标准差 (Std):  0.402147
+  - 最小值 (Min):    -1.257812
+  - 最大值 (Max):    3.937500
+----------------------------------------
+层名称 (Layer Name): model.layers.5.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.297313
+  - 标准差 (Std):  0.362450
+  - 最小值 (Min):    -0.052734
+  - 最大值 (Max):    2.953125
+----------------------------------------
+层名称 (Layer Name): model.layers.6.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000052
+  - 标准差 (Std):  0.016479
+  - 最小值 (Min):    -0.016479
+  - 最大值 (Max):    0.016479
+----------------------------------------
+层名称 (Layer Name): model.layers.6.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000046
+  - 标准差 (Std):  0.020142
+  - 最小值 (Min):    -0.020142
+  - 最大值 (Max):    0.020142
+----------------------------------------
+层名称 (Layer Name): model.layers.6.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000043
+  - 标准差 (Std):  0.013733
+  - 最小值 (Min):    -0.013733
+  - 最大值 (Max):    0.013733
+----------------------------------------
+层名称 (Layer Name): model.layers.6.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000017
+  - 标准差 (Std):  0.012634
+  - 最小值 (Min):    -0.012634
+  - 最大值 (Max):    0.012634
+----------------------------------------
+层名称 (Layer Name): model.layers.6.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000004
+  - 标准差 (Std):  0.016357
+  - 最小值 (Min):    -0.016357
+  - 最大值 (Max):    0.016357
+----------------------------------------
+层名称 (Layer Name): model.layers.6.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000005
+  - 标准差 (Std):  0.013489
+  - 最小值 (Min):    -0.013489
+  - 最大值 (Max):    0.013489
+----------------------------------------
+层名称 (Layer Name): model.layers.6.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000000
+  - 标准差 (Std):  0.012939
+  - 最小值 (Min):    -0.012939
+  - 最大值 (Max):    0.012939
+----------------------------------------
+层名称 (Layer Name): model.layers.6.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.148010
+  - 标准差 (Std):  0.431341
+  - 最小值 (Min):    -0.828125
+  - 最大值 (Max):    3.968750
+----------------------------------------
+层名称 (Layer Name): model.layers.6.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.323711
+  - 标准差 (Std):  0.409133
+  - 最小值 (Min):    -0.000002
+  - 最大值 (Max):    3.781250
+----------------------------------------
+层名称 (Layer Name): model.layers.7.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000021
+  - 标准差 (Std):  0.015869
+  - 最小值 (Min):    -0.015869
+  - 最大值 (Max):    0.015869
+----------------------------------------
+层名称 (Layer Name): model.layers.7.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000051
+  - 标准差 (Std):  0.019531
+  - 最小值 (Min):    -0.019531
+  - 最大值 (Max):    0.019531
+----------------------------------------
+层名称 (Layer Name): model.layers.7.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000001
+  - 标准差 (Std):  0.013062
+  - 最小值 (Min):    -0.013062
+  - 最大值 (Max):    0.013062
+----------------------------------------
+层名称 (Layer Name): model.layers.7.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000019
+  - 标准差 (Std):  0.012268
+  - 最小值 (Min):    -0.012268
+  - 最大值 (Max):    0.012268
+----------------------------------------
+层名称 (Layer Name): model.layers.7.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000014
+  - 标准差 (Std):  0.016846
+  - 最小值 (Min):    -0.016846
+  - 最大值 (Max):    0.016846
+----------------------------------------
+层名称 (Layer Name): model.layers.7.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000018
+  - 标准差 (Std):  0.013061
+  - 最小值 (Min):    -0.013062
+  - 最大值 (Max):    0.013062
+----------------------------------------
+层名称 (Layer Name): model.layers.7.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000011
+  - 标准差 (Std):  0.012329
+  - 最小值 (Min):    -0.012329
+  - 最大值 (Max):    0.012329
+----------------------------------------
+层名称 (Layer Name): model.layers.7.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.319497
+  - 标准差 (Std):  0.504894
+  - 最小值 (Min):    -1.132812
+  - 最大值 (Max):    3.890625
+----------------------------------------
+层名称 (Layer Name): model.layers.7.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.421060
+  - 标准差 (Std):  0.476248
+  - 最小值 (Min):    -0.000039
+  - 最大值 (Max):    3.593750
+----------------------------------------
+层名称 (Layer Name): model.layers.8.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000004
+  - 标准差 (Std):  0.016846
+  - 最小值 (Min):    -0.016846
+  - 最大值 (Max):    0.016846
+----------------------------------------
+层名称 (Layer Name): model.layers.8.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000138
+  - 标准差 (Std):  0.022338
+  - 最小值 (Min):    -0.022339
+  - 最大值 (Max):    0.022339
+----------------------------------------
+层名称 (Layer Name): model.layers.8.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000083
+  - 标准差 (Std):  0.011780
+  - 最小值 (Min):    -0.011780
+  - 最大值 (Max):    0.011780
+----------------------------------------
+层名称 (Layer Name): model.layers.8.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000028
+  - 标准差 (Std):  0.011597
+  - 最小值 (Min):    -0.011597
+  - 最大值 (Max):    0.011597
+----------------------------------------
+层名称 (Layer Name): model.layers.8.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000030
+  - 标准差 (Std):  0.015747
+  - 最小值 (Min):    -0.015747
+  - 最大值 (Max):    0.015747
+----------------------------------------
+层名称 (Layer Name): model.layers.8.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000005
+  - 标准差 (Std):  0.013367
+  - 最小值 (Min):    -0.013367
+  - 最大值 (Max):    0.013367
+----------------------------------------
+层名称 (Layer Name): model.layers.8.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000007
+  - 标准差 (Std):  0.012634
+  - 最小值 (Min):    -0.012634
+  - 最大值 (Max):    0.012634
+----------------------------------------
+层名称 (Layer Name): model.layers.8.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.069058
+  - 标准差 (Std):  0.557699
+  - 最小值 (Min):    -0.116211
+  - 最大值 (Max):    3.265625
+----------------------------------------
+层名称 (Layer Name): model.layers.8.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.269381
+  - 标准差 (Std):  0.485909
+  - 最小值 (Min):    0.257812
+  - 最大值 (Max):    3.531250
+----------------------------------------
+层名称 (Layer Name): model.layers.9.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000032
+  - 标准差 (Std):  0.013794
+  - 最小值 (Min):    -0.013794
+  - 最大值 (Max):    0.013794
+----------------------------------------
+层名称 (Layer Name): model.layers.9.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000045
+  - 标准差 (Std):  0.015869
+  - 最小值 (Min):    -0.015869
+  - 最大值 (Max):    0.015869
+----------------------------------------
+层名称 (Layer Name): model.layers.9.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000018
+  - 标准差 (Std):  0.011902
+  - 最小值 (Min):    -0.011902
+  - 最大值 (Max):    0.011902
+----------------------------------------
+层名称 (Layer Name): model.layers.9.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000004
+  - 标准差 (Std):  0.010986
+  - 最小值 (Min):    -0.010986
+  - 最大值 (Max):    0.010986
+----------------------------------------
+层名称 (Layer Name): model.layers.9.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000007
+  - 标准差 (Std):  0.014526
+  - 最小值 (Min):    -0.014526
+  - 最大值 (Max):    0.014526
+----------------------------------------
+层名称 (Layer Name): model.layers.9.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000006
+  - 标准差 (Std):  0.013184
+  - 最小值 (Min):    -0.013184
+  - 最大值 (Max):    0.013184
+----------------------------------------
+层名称 (Layer Name): model.layers.9.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000003
+  - 标准差 (Std):  0.012573
+  - 最小值 (Min):    -0.012573
+  - 最大值 (Max):    0.012573
+----------------------------------------
+层名称 (Layer Name): model.layers.9.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.568167
+  - 标准差 (Std):  0.972375
+  - 最小值 (Min):    -0.804688
+  - 最大值 (Max):    10.750000
+----------------------------------------
+层名称 (Layer Name): model.layers.9.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.362996
+  - 标准差 (Std):  0.577667
+  - 最小值 (Min):    -0.000067
+  - 最大值 (Max):    3.203125
+----------------------------------------
+层名称 (Layer Name): model.layers.10.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000012
+  - 标准差 (Std):  0.015991
+  - 最小值 (Min):    -0.015991
+  - 最大值 (Max):    0.015991
+----------------------------------------
+层名称 (Layer Name): model.layers.10.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000001
+  - 标准差 (Std):  0.017090
+  - 最小值 (Min):    -0.017090
+  - 最大值 (Max):    0.017090
+----------------------------------------
+层名称 (Layer Name): model.layers.10.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000024
+  - 标准差 (Std):  0.013916
+  - 最小值 (Min):    -0.013916
+  - 最大值 (Max):    0.013916
+----------------------------------------
+层名称 (Layer Name): model.layers.10.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000003
+  - 标准差 (Std):  0.012390
+  - 最小值 (Min):    -0.012390
+  - 最大值 (Max):    0.012390
+----------------------------------------
+层名称 (Layer Name): model.layers.10.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000015
+  - 标准差 (Std):  0.015015
+  - 最小值 (Min):    -0.015015
+  - 最大值 (Max):    0.015015
+----------------------------------------
+层名称 (Layer Name): model.layers.10.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000004
+  - 标准差 (Std):  0.013489
+  - 最小值 (Min):    -0.013489
+  - 最大值 (Max):    0.013489
+----------------------------------------
+层名称 (Layer Name): model.layers.10.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000002
+  - 标准差 (Std):  0.012573
+  - 最小值 (Min):    -0.012573
+  - 最大值 (Max):    0.012573
+----------------------------------------
+层名称 (Layer Name): model.layers.10.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.337202
+  - 标准差 (Std):  0.957485
+  - 最小值 (Min):    -1.117188
+  - 最大值 (Max):    4.531250
+----------------------------------------
+层名称 (Layer Name): model.layers.10.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.315183
+  - 标准差 (Std):  0.660071
+  - 最小值 (Min):    0.242188
+  - 最大值 (Max):    3.515625
+----------------------------------------
+层名称 (Layer Name): model.layers.11.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000016
+  - 标准差 (Std):  0.014709
+  - 最小值 (Min):    -0.014709
+  - 最大值 (Max):    0.014709
+----------------------------------------
+层名称 (Layer Name): model.layers.11.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000022
+  - 标准差 (Std):  0.015747
+  - 最小值 (Min):    -0.015747
+  - 最大值 (Max):    0.015747
+----------------------------------------
+层名称 (Layer Name): model.layers.11.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000065
+  - 标准差 (Std):  0.013306
+  - 最小值 (Min):    -0.013306
+  - 最大值 (Max):    0.013306
+----------------------------------------
+层名称 (Layer Name): model.layers.11.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000016
+  - 标准差 (Std):  0.012085
+  - 最小值 (Min):    -0.012085
+  - 最大值 (Max):    0.012085
+----------------------------------------
+层名称 (Layer Name): model.layers.11.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000049
+  - 标准差 (Std):  0.015442
+  - 最小值 (Min):    -0.015442
+  - 最大值 (Max):    0.015442
+----------------------------------------
+层名称 (Layer Name): model.layers.11.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000008
+  - 标准差 (Std):  0.013489
+  - 最小值 (Min):    -0.013489
+  - 最大值 (Max):    0.013489
+----------------------------------------
+层名称 (Layer Name): model.layers.11.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000006
+  - 标准差 (Std):  0.012573
+  - 最小值 (Min):    -0.012573
+  - 最大值 (Max):    0.012573
+----------------------------------------
+层名称 (Layer Name): model.layers.11.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.796278
+  - 标准差 (Std):  1.100070
+  - 最小值 (Min):    -0.039551
+  - 最大值 (Max):    7.375000
+----------------------------------------
+层名称 (Layer Name): model.layers.11.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.319809
+  - 标准差 (Std):  0.492273
+  - 最小值 (Min):    0.000049
+  - 最大值 (Max):    2.656250
+----------------------------------------
+层名称 (Layer Name): model.layers.12.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000016
+  - 标准差 (Std):  0.014221
+  - 最小值 (Min):    -0.014221
+  - 最大值 (Max):    0.014221
+----------------------------------------
+层名称 (Layer Name): model.layers.12.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000015
+  - 标准差 (Std):  0.016357
+  - 最小值 (Min):    -0.016357
+  - 最大值 (Max):    0.016357
+----------------------------------------
+层名称 (Layer Name): model.layers.12.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000011
+  - 标准差 (Std):  0.013184
+  - 最小值 (Min):    -0.013184
+  - 最大值 (Max):    0.013184
+----------------------------------------
+层名称 (Layer Name): model.layers.12.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000010
+  - 标准差 (Std):  0.012512
+  - 最小值 (Min):    -0.012512
+  - 最大值 (Max):    0.012512
+----------------------------------------
+层名称 (Layer Name): model.layers.12.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000036
+  - 标准差 (Std):  0.015381
+  - 最小值 (Min):    -0.015381
+  - 最大值 (Max):    0.015381
+----------------------------------------
+层名称 (Layer Name): model.layers.12.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000006
+  - 标准差 (Std):  0.013733
+  - 最小值 (Min):    -0.013733
+  - 最大值 (Max):    0.013733
+----------------------------------------
+层名称 (Layer Name): model.layers.12.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000003
+  - 标准差 (Std):  0.012878
+  - 最小值 (Min):    -0.012878
+  - 最大值 (Max):    0.012878
+----------------------------------------
+层名称 (Layer Name): model.layers.12.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.513124
+  - 标准差 (Std):  0.614302
+  - 最小值 (Min):    -0.906250
+  - 最大值 (Max):    3.187500
+----------------------------------------
+层名称 (Layer Name): model.layers.12.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.389515
+  - 标准差 (Std):  0.493651
+  - 最小值 (Min):    -0.000116
+  - 最大值 (Max):    2.531250
+----------------------------------------
+层名称 (Layer Name): model.layers.13.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000017
+  - 标准差 (Std):  0.015320
+  - 最小值 (Min):    -0.015320
+  - 最大值 (Max):    0.015320
+----------------------------------------
+层名称 (Layer Name): model.layers.13.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000053
+  - 标准差 (Std):  0.018555
+  - 最小值 (Min):    -0.018555
+  - 最大值 (Max):    0.018555
+----------------------------------------
+层名称 (Layer Name): model.layers.13.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000099
+  - 标准差 (Std):  0.014831
+  - 最小值 (Min):    -0.014832
+  - 最大值 (Max):    0.014832
+----------------------------------------
+层名称 (Layer Name): model.layers.13.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000001
+  - 标准差 (Std):  0.012939
+  - 最小值 (Min):    -0.012939
+  - 最大值 (Max):    0.012939
+----------------------------------------
+层名称 (Layer Name): model.layers.13.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000047
+  - 标准差 (Std):  0.014953
+  - 最小值 (Min):    -0.014954
+  - 最大值 (Max):    0.014954
+----------------------------------------
+层名称 (Layer Name): model.layers.13.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000007
+  - 标准差 (Std):  0.014099
+  - 最小值 (Min):    -0.014099
+  - 最大值 (Max):    0.014099
+----------------------------------------
+层名称 (Layer Name): model.layers.13.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000004
+  - 标准差 (Std):  0.013245
+  - 最小值 (Min):    -0.013245
+  - 最大值 (Max):    0.013245
+----------------------------------------
+层名称 (Layer Name): model.layers.13.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.486156
+  - 标准差 (Std):  0.668099
+  - 最小值 (Min):    0.091309
+  - 最大值 (Max):    3.359375
+----------------------------------------
+层名称 (Layer Name): model.layers.13.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.372923
+  - 标准差 (Std):  0.469414
+  - 最小值 (Min):    0.246094
+  - 最大值 (Max):    2.390625
+----------------------------------------
+层名称 (Layer Name): model.layers.14.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000003
+  - 标准差 (Std):  0.015259
+  - 最小值 (Min):    -0.015259
+  - 最大值 (Max):    0.015259
+----------------------------------------
+层名称 (Layer Name): model.layers.14.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000034
+  - 标准差 (Std):  0.018677
+  - 最小值 (Min):    -0.018677
+  - 最大值 (Max):    0.018677
+----------------------------------------
+层名称 (Layer Name): model.layers.14.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000016
+  - 标准差 (Std):  0.014526
+  - 最小值 (Min):    -0.014526
+  - 最大值 (Max):    0.014526
+----------------------------------------
+层名称 (Layer Name): model.layers.14.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000001
+  - 标准差 (Std):  0.012695
+  - 最小值 (Min):    -0.012695
+  - 最大值 (Max):    0.012695
+----------------------------------------
+层名称 (Layer Name): model.layers.14.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000067
+  - 标准差 (Std):  0.014831
+  - 最小值 (Min):    -0.014832
+  - 最大值 (Max):    0.014832
+----------------------------------------
+层名称 (Layer Name): model.layers.14.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000008
+  - 标准差 (Std):  0.014221
+  - 最小值 (Min):    -0.014221
+  - 最大值 (Max):    0.014221
+----------------------------------------
+层名称 (Layer Name): model.layers.14.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000002
+  - 标准差 (Std):  0.013428
+  - 最小值 (Min):    -0.013428
+  - 最大值 (Max):    0.013428
+----------------------------------------
+层名称 (Layer Name): model.layers.14.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.626853
+  - 标准差 (Std):  0.703336
+  - 最小值 (Min):    -0.707031
+  - 最大值 (Max):    3.421875
+----------------------------------------
+层名称 (Layer Name): model.layers.14.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.400581
+  - 标准差 (Std):  0.434555
+  - 最小值 (Min):    -0.027100
+  - 最大值 (Max):    2.343750
+----------------------------------------
+层名称 (Layer Name): model.layers.15.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000003
+  - 标准差 (Std):  0.015747
+  - 最小值 (Min):    -0.015747
+  - 最大值 (Max):    0.015747
+----------------------------------------
+层名称 (Layer Name): model.layers.15.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000031
+  - 标准差 (Std):  0.019165
+  - 最小值 (Min):    -0.019165
+  - 最大值 (Max):    0.019165
+----------------------------------------
+层名称 (Layer Name): model.layers.15.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000023
+  - 标准差 (Std):  0.014587
+  - 最小值 (Min):    -0.014587
+  - 最大值 (Max):    0.014587
+----------------------------------------
+层名称 (Layer Name): model.layers.15.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000004
+  - 标准差 (Std):  0.012329
+  - 最小值 (Min):    -0.012329
+  - 最大值 (Max):    0.012329
+----------------------------------------
+层名称 (Layer Name): model.layers.15.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000049
+  - 标准差 (Std):  0.015076
+  - 最小值 (Min):    -0.015076
+  - 最大值 (Max):    0.015076
+----------------------------------------
+层名称 (Layer Name): model.layers.15.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000003
+  - 标准差 (Std):  0.014160
+  - 最小值 (Min):    -0.014160
+  - 最大值 (Max):    0.014160
+----------------------------------------
+层名称 (Layer Name): model.layers.15.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000004
+  - 标准差 (Std):  0.013306
+  - 最小值 (Min):    -0.013306
+  - 最大值 (Max):    0.013306
+----------------------------------------
+层名称 (Layer Name): model.layers.15.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.425349
+  - 标准差 (Std):  0.598486
+  - 最小值 (Min):    -0.671875
+  - 最大值 (Max):    3.218750
+----------------------------------------
+层名称 (Layer Name): model.layers.15.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.477057
+  - 标准差 (Std):  0.390902
+  - 最小值 (Min):    0.396484
+  - 最大值 (Max):    2.640625
+----------------------------------------
+层名称 (Layer Name): model.layers.16.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000065
+  - 标准差 (Std):  0.015503
+  - 最小值 (Min):    -0.015503
+  - 最大值 (Max):    0.015503
+----------------------------------------
+层名称 (Layer Name): model.layers.16.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000074
+  - 标准差 (Std):  0.016113
+  - 最小值 (Min):    -0.016113
+  - 最大值 (Max):    0.016113
+----------------------------------------
+层名称 (Layer Name): model.layers.16.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000006
+  - 标准差 (Std):  0.013977
+  - 最小值 (Min):    -0.013977
+  - 最大值 (Max):    0.013977
+----------------------------------------
+层名称 (Layer Name): model.layers.16.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000003
+  - 标准差 (Std):  0.013367
+  - 最小值 (Min):    -0.013367
+  - 最大值 (Max):    0.013367
+----------------------------------------
+层名称 (Layer Name): model.layers.16.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000013
+  - 标准差 (Std):  0.015259
+  - 最小值 (Min):    -0.015259
+  - 最大值 (Max):    0.015259
+----------------------------------------
+层名称 (Layer Name): model.layers.16.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000005
+  - 标准差 (Std):  0.014282
+  - 最小值 (Min):    -0.014282
+  - 最大值 (Max):    0.014282
+----------------------------------------
+层名称 (Layer Name): model.layers.16.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000002
+  - 标准差 (Std):  0.013611
+  - 最小值 (Min):    -0.013611
+  - 最大值 (Max):    0.013611
+----------------------------------------
+层名称 (Layer Name): model.layers.16.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.660564
+  - 标准差 (Std):  0.565342
+  - 最小值 (Min):    -0.910156
+  - 最大值 (Max):    3.562500
+----------------------------------------
+层名称 (Layer Name): model.layers.16.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.578326
+  - 标准差 (Std):  0.341396
+  - 最小值 (Min):    0.433594
+  - 最大值 (Max):    3.515625
+----------------------------------------
+层名称 (Layer Name): model.layers.17.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000012
+  - 标准差 (Std):  0.015137
+  - 最小值 (Min):    -0.015137
+  - 最大值 (Max):    0.015137
+----------------------------------------
+层名称 (Layer Name): model.layers.17.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000036
+  - 标准差 (Std):  0.016602
+  - 最小值 (Min):    -0.016602
+  - 最大值 (Max):    0.016602
+----------------------------------------
+层名称 (Layer Name): model.layers.17.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000035
+  - 标准差 (Std):  0.016235
+  - 最小值 (Min):    -0.016235
+  - 最大值 (Max):    0.016235
+----------------------------------------
+层名称 (Layer Name): model.layers.17.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000001
+  - 标准差 (Std):  0.013061
+  - 最小值 (Min):    -0.013062
+  - 最大值 (Max):    0.013062
+----------------------------------------
+层名称 (Layer Name): model.layers.17.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000071
+  - 标准差 (Std):  0.016357
+  - 最小值 (Min):    -0.016357
+  - 最大值 (Max):    0.016357
+----------------------------------------
+层名称 (Layer Name): model.layers.17.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000005
+  - 标准差 (Std):  0.013916
+  - 最小值 (Min):    -0.013916
+  - 最大值 (Max):    0.013916
+----------------------------------------
+层名称 (Layer Name): model.layers.17.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000006
+  - 标准差 (Std):  0.013367
+  - 最小值 (Min):    -0.013367
+  - 最大值 (Max):    0.013367
+----------------------------------------
+层名称 (Layer Name): model.layers.17.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.571925
+  - 标准差 (Std):  0.485490
+  - 最小值 (Min):    0.085449
+  - 最大值 (Max):    3.390625
+----------------------------------------
+层名称 (Layer Name): model.layers.17.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.730824
+  - 标准差 (Std):  0.371812
+  - 最小值 (Min):    0.339844
+  - 最大值 (Max):    3.234375
+----------------------------------------
+层名称 (Layer Name): model.layers.18.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000013
+  - 标准差 (Std):  0.015137
+  - 最小值 (Min):    -0.015137
+  - 最大值 (Max):    0.015137
+----------------------------------------
+层名称 (Layer Name): model.layers.18.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000010
+  - 标准差 (Std):  0.017090
+  - 最小值 (Min):    -0.017090
+  - 最大值 (Max):    0.017090
+----------------------------------------
+层名称 (Layer Name): model.layers.18.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000017
+  - 标准差 (Std):  0.018677
+  - 最小值 (Min):    -0.018677
+  - 最大值 (Max):    0.018677
+----------------------------------------
+层名称 (Layer Name): model.layers.18.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000003
+  - 标准差 (Std):  0.014648
+  - 最小值 (Min):    -0.014648
+  - 最大值 (Max):    0.014648
+----------------------------------------
+层名称 (Layer Name): model.layers.18.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000018
+  - 标准差 (Std):  0.015869
+  - 最小值 (Min):    -0.015869
+  - 最大值 (Max):    0.015869
+----------------------------------------
+层名称 (Layer Name): model.layers.18.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000010
+  - 标准差 (Std):  0.014465
+  - 最小值 (Min):    -0.014465
+  - 最大值 (Max):    0.014465
+----------------------------------------
+层名称 (Layer Name): model.layers.18.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000001
+  - 标准差 (Std):  0.013855
+  - 最小值 (Min):    -0.013855
+  - 最大值 (Max):    0.013855
+----------------------------------------
+层名称 (Layer Name): model.layers.18.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.589983
+  - 标准差 (Std):  0.380777
+  - 最小值 (Min):    -0.917969
+  - 最大值 (Max):    3.312500
+----------------------------------------
+层名称 (Layer Name): model.layers.18.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.719567
+  - 标准差 (Std):  0.396017
+  - 最小值 (Min):    0.322266
+  - 最大值 (Max):    4.125000
+----------------------------------------
+层名称 (Layer Name): model.layers.19.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000008
+  - 标准差 (Std):  0.015869
+  - 最小值 (Min):    -0.015869
+  - 最大值 (Max):    0.015869
+----------------------------------------
+层名称 (Layer Name): model.layers.19.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000069
+  - 标准差 (Std):  0.018555
+  - 最小值 (Min):    -0.018555
+  - 最大值 (Max):    0.018555
+----------------------------------------
+层名称 (Layer Name): model.layers.19.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000017
+  - 标准差 (Std):  0.016724
+  - 最小值 (Min):    -0.016724
+  - 最大值 (Max):    0.016724
+----------------------------------------
+层名称 (Layer Name): model.layers.19.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000007
+  - 标准差 (Std):  0.014038
+  - 最小值 (Min):    -0.014038
+  - 最大值 (Max):    0.014038
+----------------------------------------
+层名称 (Layer Name): model.layers.19.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000020
+  - 标准差 (Std):  0.015991
+  - 最小值 (Min):    -0.015991
+  - 最大值 (Max):    0.015991
+----------------------------------------
+层名称 (Layer Name): model.layers.19.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000017
+  - 标准差 (Std):  0.014648
+  - 最小值 (Min):    -0.014648
+  - 最大值 (Max):    0.014648
+----------------------------------------
+层名称 (Layer Name): model.layers.19.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000005
+  - 标准差 (Std):  0.013916
+  - 最小值 (Min):    -0.013916
+  - 最大值 (Max):    0.013916
+----------------------------------------
+层名称 (Layer Name): model.layers.19.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.457768
+  - 标准差 (Std):  0.332832
+  - 最小值 (Min):    -0.378906
+  - 最大值 (Max):    3.609375
+----------------------------------------
+层名称 (Layer Name): model.layers.19.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.908927
+  - 标准差 (Std):  0.385458
+  - 最小值 (Min):    0.527344
+  - 最大值 (Max):    4.625000
+----------------------------------------
+层名称 (Layer Name): model.layers.20.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000017
+  - 标准差 (Std):  0.015442
+  - 最小值 (Min):    -0.015442
+  - 最大值 (Max):    0.015442
+----------------------------------------
+层名称 (Layer Name): model.layers.20.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000092
+  - 标准差 (Std):  0.015381
+  - 最小值 (Min):    -0.015381
+  - 最大值 (Max):    0.015381
+----------------------------------------
+层名称 (Layer Name): model.layers.20.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000120
+  - 标准差 (Std):  0.016845
+  - 最小值 (Min):    -0.016846
+  - 最大值 (Max):    0.016846
+----------------------------------------
+层名称 (Layer Name): model.layers.20.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000003
+  - 标准差 (Std):  0.014038
+  - 最小值 (Min):    -0.014038
+  - 最大值 (Max):    0.014038
+----------------------------------------
+层名称 (Layer Name): model.layers.20.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000001
+  - 标准差 (Std):  0.015747
+  - 最小值 (Min):    -0.015747
+  - 最大值 (Max):    0.015747
+----------------------------------------
+层名称 (Layer Name): model.layers.20.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000003
+  - 标准差 (Std):  0.014709
+  - 最小值 (Min):    -0.014709
+  - 最大值 (Max):    0.014709
+----------------------------------------
+层名称 (Layer Name): model.layers.20.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000008
+  - 标准差 (Std):  0.014038
+  - 最小值 (Min):    -0.014038
+  - 最大值 (Max):    0.014038
+----------------------------------------
+层名称 (Layer Name): model.layers.20.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.516144
+  - 标准差 (Std):  0.670899
+  - 最小值 (Min):    -0.039062
+  - 最大值 (Max):    4.375000
+----------------------------------------
+层名称 (Layer Name): model.layers.20.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   2.016449
+  - 标准差 (Std):  0.307135
+  - 最小值 (Min):    0.406250
+  - 最大值 (Max):    5.812500
+----------------------------------------
+层名称 (Layer Name): model.layers.21.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000030
+  - 标准差 (Std):  0.013977
+  - 最小值 (Min):    -0.013977
+  - 最大值 (Max):    0.013977
+----------------------------------------
+层名称 (Layer Name): model.layers.21.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000053
+  - 标准差 (Std):  0.012756
+  - 最小值 (Min):    -0.012756
+  - 最大值 (Max):    0.012756
+----------------------------------------
+层名称 (Layer Name): model.layers.21.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000022
+  - 标准差 (Std):  0.022583
+  - 最小值 (Min):    -0.022583
+  - 最大值 (Max):    0.022583
+----------------------------------------
+层名称 (Layer Name): model.layers.21.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000000
+  - 标准差 (Std):  0.017212
+  - 最小值 (Min):    -0.017212
+  - 最大值 (Max):    0.017212
+----------------------------------------
+层名称 (Layer Name): model.layers.21.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000019
+  - 标准差 (Std):  0.015564
+  - 最小值 (Min):    -0.015564
+  - 最大值 (Max):    0.015564
+----------------------------------------
+层名称 (Layer Name): model.layers.21.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000004
+  - 标准差 (Std):  0.015137
+  - 最小值 (Min):    -0.015137
+  - 最大值 (Max):    0.015137
+----------------------------------------
+层名称 (Layer Name): model.layers.21.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000010
+  - 标准差 (Std):  0.014465
+  - 最小值 (Min):    -0.014465
+  - 最大值 (Max):    0.014465
+----------------------------------------
+层名称 (Layer Name): model.layers.21.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.617219
+  - 标准差 (Std):  1.366368
+  - 最小值 (Min):    0.057129
+  - 最大值 (Max):    7.062500
+----------------------------------------
+层名称 (Layer Name): model.layers.21.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   2.010075
+  - 标准差 (Std):  0.280976
+  - 最小值 (Min):    -0.000340
+  - 最大值 (Max):    5.187500
+----------------------------------------
+层名称 (Layer Name): model.layers.22.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000008
+  - 标准差 (Std):  0.013916
+  - 最小值 (Min):    -0.013916
+  - 最大值 (Max):    0.013916
+----------------------------------------
+层名称 (Layer Name): model.layers.22.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000061
+  - 标准差 (Std):  0.013428
+  - 最小值 (Min):    -0.013428
+  - 最大值 (Max):    0.013428
+----------------------------------------
+层名称 (Layer Name): model.layers.22.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000022
+  - 标准差 (Std):  0.021729
+  - 最小值 (Min):    -0.021729
+  - 最大值 (Max):    0.021729
+----------------------------------------
+层名称 (Layer Name): model.layers.22.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000011
+  - 标准差 (Std):  0.016235
+  - 最小值 (Min):    -0.016235
+  - 最大值 (Max):    0.016235
+----------------------------------------
+层名称 (Layer Name): model.layers.22.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000026
+  - 标准差 (Std):  0.015259
+  - 最小值 (Min):    -0.015259
+  - 最大值 (Max):    0.015259
+----------------------------------------
+层名称 (Layer Name): model.layers.22.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000008
+  - 标准差 (Std):  0.015442
+  - 最小值 (Min):    -0.015442
+  - 最大值 (Max):    0.015442
+----------------------------------------
+层名称 (Layer Name): model.layers.22.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000005
+  - 标准差 (Std):  0.014587
+  - 最小值 (Min):    -0.014587
+  - 最大值 (Max):    0.014587
+----------------------------------------
+层名称 (Layer Name): model.layers.22.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.654051
+  - 标准差 (Std):  1.173776
+  - 最小值 (Min):    0.158203
+  - 最大值 (Max):    6.468750
+----------------------------------------
+层名称 (Layer Name): model.layers.22.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   2.134290
+  - 标准差 (Std):  0.347131
+  - 最小值 (Min):    -0.000056
+  - 最大值 (Max):    9.312500
+----------------------------------------
+层名称 (Layer Name): model.layers.23.self_attn.q_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000010
+  - 标准差 (Std):  0.014282
+  - 最小值 (Min):    -0.014282
+  - 最大值 (Max):    0.014282
+----------------------------------------
+层名称 (Layer Name): model.layers.23.self_attn.k_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000025
+  - 标准差 (Std):  0.014404
+  - 最小值 (Min):    -0.014404
+  - 最大值 (Max):    0.014404
+----------------------------------------
+层名称 (Layer Name): model.layers.23.self_attn.v_proj.weight
+  - 形状 (Shape): torch.Size([128, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000014
+  - 标准差 (Std):  0.019165
+  - 最小值 (Min):    -0.019165
+  - 最大值 (Max):    0.019165
+----------------------------------------
+层名称 (Layer Name): model.layers.23.self_attn.o_proj.weight
+  - 形状 (Shape): torch.Size([896, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000024
+  - 标准差 (Std):  0.014404
+  - 最小值 (Min):    -0.014404
+  - 最大值 (Max):    0.014404
+----------------------------------------
+层名称 (Layer Name): model.layers.23.mlp.gate_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000048
+  - 标准差 (Std):  0.015869
+  - 最小值 (Min):    -0.015869
+  - 最大值 (Max):    0.015869
+----------------------------------------
+层名称 (Layer Name): model.layers.23.mlp.up_proj.weight
+  - 形状 (Shape): torch.Size([4864, 896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   -0.000013
+  - 标准差 (Std):  0.015381
+  - 最小值 (Min):    -0.015381
+  - 最大值 (Max):    0.015381
+----------------------------------------
+层名称 (Layer Name): model.layers.23.mlp.down_proj.weight
+  - 形状 (Shape): torch.Size([896, 4864])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   0.000003
+  - 标准差 (Std):  0.013123
+  - 最小值 (Min):    -0.013123
+  - 最大值 (Max):    0.013123
+----------------------------------------
+层名称 (Layer Name): model.layers.23.input_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   1.902257
+  - 标准差 (Std):  1.037063
+  - 最小值 (Min):    0.984375
+  - 最大值 (Max):    9.312500
+----------------------------------------
+层名称 (Layer Name): model.layers.23.post_attention_layernorm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   2.330924
+  - 标准差 (Std):  0.357699
+  - 最小值 (Min):    0.000022
+  - 最大值 (Max):    7.718750
+----------------------------------------
+层名称 (Layer Name): model.norm.weight
+  - 形状 (Shape): torch.Size([896])
+  - 数据类型 (Dtype): torch.bfloat16
+  - 均值 (Mean):   7.463623
+  - 标准差 (Std):  0.841196
+  - 最小值 (Min):    -2.281250
+  - 最大值 (Max):    17.375000
+----------------------------------------
